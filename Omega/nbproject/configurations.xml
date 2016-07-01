@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>BinaryHeap.h</itemPath>
+      <itemPath>Game.h</itemPath>
+      <itemPath>GameData.h</itemPath>
+      <itemPath>GameState.h</itemPath>
+      <itemPath>Graph.h</itemPath>
+      <itemPath>Grid.h</itemPath>
+      <itemPath>Histogram.h</itemPath>
+      <itemPath>InternalUtils.h</itemPath>
+      <itemPath>Set.h</itemPath>
+      <itemPath>SetPredicate.h</itemPath>
+      <itemPath>Tree.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>BinaryHeap.cpp</itemPath>
+      <itemPath>Game.cpp</itemPath>
+      <itemPath>GameData.cpp</itemPath>
+      <itemPath>GameState.cpp</itemPath>
+      <itemPath>Graph.cpp</itemPath>
+      <itemPath>Grid.cpp</itemPath>
+      <itemPath>Histogram.cpp</itemPath>
+      <itemPath>Set.cpp</itemPath>
+      <itemPath>SetPredicate.cpp</itemPath>
+      <itemPath>Tree.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1" displayName="SetTest" projectFiles="true" kind="TEST">
+        <itemPath>tests/SetRunner.cpp</itemPath>
+        <itemPath>tests/SetTest.cpp</itemPath>
+        <itemPath>tests/SetTest.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>Cygwin_4.x|Cygwin_4.x</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../../../../../cygwin64/usr/include/cppunit</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>cppunit.dll</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="BinaryHeap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BinaryHeap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Graph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Histogram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Histogram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InternalUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Set.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Set.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SetPredicate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SetPredicate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <item path="tests/SetRunner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SetTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SetTest.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="BinaryHeap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BinaryHeap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameState.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Graph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Histogram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Histogram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="InternalUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Set.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Set.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SetPredicate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SetPredicate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <item path="tests/SetRunner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SetTest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/SetTest.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
